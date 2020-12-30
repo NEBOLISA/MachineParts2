@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableLayout android:id="@+id/mylayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <TableRow  android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TableLayout
+                android:id="@+id/mylayout1"
+                android:layout_width="318dp"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+<TableRow>
+    <TextView android:text="Test1"></TextView>
+    <TextView android:text="Test2"></TextView>
+
+    <TextView android:text="Test1"></TextView>
+</TableRow>
+
+
+
+
+                <TextView android:text="Test2"></TextView>
+
+                <TextView android:text="Test1"></TextView>
+
+                <TextView android:text="Test2"></TextView>
+
+                <TextView android:text="Test1"></TextView>
+
+                <TextView android:text="Test2"></TextView>
+
+                <TextView android:text="Test1"></TextView>
+
+                <TextView android:text="Test2"></TextView>
+
+                <TextView android:text="Test1"></TextView>
+
+                <TextView android:text="Test2"></TextView>
+
+                <TextView android:text="Test1"></TextView>
+
+                <TextView android:text="Test2"></TextView>
+
+                <TextView android:text="Test1"></TextView>
+
+                <TextView android:text="Test2"></TextView>
+
+                <TextView android:text="Test1"></TextView>
+
+                <TextView android:text="Test2"></TextView>
+
+                <TextView android:text="Test1"></TextView>
+
+                <TextView android:text="Test2"></TextView>
+
+                <TextView android:text="Test1"></TextView>
+
+                <TextView android:text="Test2"></TextView>
+
+                <TextView android:text="Test1"></TextView>
+
+                <TextView android:text="Test2"></TextView>
+
+                <TextView android:text="Test1"></TextView>
+
+                <TextView android:text="Test2"></TextView>
+
+                <TextView android:text="Test1"></TextView>
+
+                <TextView android:text="Test2"></TextView>
+
+                <TextView android:text="Test1"></TextView>
+
+                <TextView android:text="Test2"></TextView>
+
+                <TextView android:text="Test1"></TextView>
+
+                <TextView android:text="Test2"></TextView>
+
+                <TextView android:text="Test1"></TextView>
+
+                <TextView android:text="Test2"></TextView>
+            </TableLayout>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

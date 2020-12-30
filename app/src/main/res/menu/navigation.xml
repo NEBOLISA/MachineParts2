@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <item
+        android:title="Notes"
+        android:id="@+id/notes"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_note"/>
+    <item
+        android:id="@+id/print"
+        android:title="Print"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_print"/>
+    <item
+        android:title="Inspection Sheet"
+        android:id="@+id/inspecton_sheet"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_inspection"/>
+
+</menu>
