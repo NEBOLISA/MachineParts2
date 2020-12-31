@@ -121,7 +121,21 @@ private int position,userChoice,i;
                                                 pojo[0].setPartNumber(String.valueOf(document.get("partNumber")));
                                                 pojo[0].setPlanID(String.valueOf(document.get("planID")));
                                                 pojo[0].setTimestamp(myTimestamp);
-                                                //pojo[0].setUserID(FirebaseAuth.getInstance().getCurrentUser().getUid());
+                                               /*db.collection("users")
+                                                       .whereEqualTo("Email",FirebaseAuth.getInstance().getCurrentUser().getEmail())
+                                                       .get().addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+                                                   @Override
+                                                   public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                                                       if (task.isSuccessful()) {
+                                                           for (QueryDocumentSnapshot document :task.getResult()) {
+                                                               if(document.exists()) {
+                                                                   String userId = String.valueOf(document.get("employeeID"));
+                                                                   pojo[0].setUserID(userId);
+                                                               }
+                                                           }
+                                                       }
+                                                   }
+                                               });**/
                                             }
 
                                             DocumentReference docRef= db.collection("machines").document(String.valueOf(InspectionRecyclerFragment.machineID));
