@@ -10,16 +10,14 @@ public class NotesPOJO {
    private Timestamp creation;
     private String customerName;
    private String partNumber;
-    private String text;
     private int userID;
 
-    public NotesPOJO(String note, int machine, Timestamp creation, String customerName, String partNumber, String text, int userID) {
+    public NotesPOJO(String note, int machine, Timestamp creation, String customerName, String partNumber,  int userID) {
         this.note = note;
         this.machine = machine;
         this.creation = creation;
         this.customerName = customerName;
         this.partNumber = partNumber;
-        this.text = text;
         this.userID = userID;
     }
 
@@ -61,14 +59,6 @@ public class NotesPOJO {
 
     public void setPartNumber(String partNumber) {
         this.partNumber = partNumber;
-    }
-
-    public String getText() {
-        return text;
-    }
-
-    public void setText(String text) {
-        this.text = text;
     }
 
     public int getUserID() {
