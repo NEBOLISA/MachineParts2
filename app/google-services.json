@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "393844561784",
+    "project_id": "machineparts2",
+    "storage_bucket": "machineparts2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393844561784:android:b2a8904a0a1658e7a21a8d",
+        "android_client_info": {
+          "package_name": "com.hfad.machineparts2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393844561784-tu7tl51epne6c3424a3urehk0mk8hfq5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPFsatOTfRx0I5neTZFFb24nBxZbulS6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "393844561784-tu7tl51epne6c3424a3urehk0mk8hfq5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
